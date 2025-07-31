@@ -109,14 +109,13 @@
 /* Blog card section start */
 
 .section-card-container {
-     /* border:2px solid blue; */
-     width:1300px;
-     margin: 0 auto;
-     display: flex;
-     justify-content: space-between;
+  /* border:2px solid blue; */
+  width: 1300px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
 }
 .blog-card-content {
-  
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   margin-top: 100px;
@@ -127,14 +126,14 @@
   /* border: 1px solid tomato; */
   width: 300px;
   margin: 0 auto;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.0), 0 6px 20px 0 rgba(0, 0, 0, 0.10);
-  border-radius:10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
 }
 
 .blog-card img {
   max-width: 100%;
-  border-top-right-radius:10px;
-  border-top-left-radius:10px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
 }
 .transfer-btn {
   width: 100px;
@@ -164,108 +163,100 @@
   margin-left: 10px;
 }
 
-
 /* Footer section start */
-.footer-container{
-    max-width: 100%;
-    background-color: black;
-    display: flex;
-    flex-direction: column;
-    /* justify-content: center; */
-    align-items: center;
-    margin-top: 130px;
+.footer-container {
+  max-width: 100%;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  margin-top: 130px;
 }
 
-.footer-content{
-    color:white;
-    margin-top: 130px;
+.footer-content {
+  color: white;
+  margin-top: 130px;
 }
 
-.footer-content h1{
-    font-size: 40px;
+.footer-content h1 {
+  font-size: 40px;
 }
 
- hr{
-    color:rgba(255, 255, 255, 0.1);
-    width: 80%;
-    margin-top: 50px;
- }
- .footer-item-list{
-    margin-top: 50px;
-    display: flex;
-    justify-content: space-between;
-    gap:50px;
-    margin-bottom: 130px;
- }
-.footer-item-list a{
-    color:rgb(185, 185, 185);
-    font-weight: 500;
-    font-size: 16px;
-    text-decoration: none;
-    
+hr {
+  color: rgba(255, 255, 255, 0.1);
+  width: 80%;
+  margin-top: 50px;
+}
+.footer-item-list {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  margin-bottom: 130px;
+}
+.footer-item-list a {
+  color: rgb(185, 185, 185);
+  font-weight: 500;
+  font-size: 16px;
+  text-decoration: none;
 }
 
- 
 /* Responsive FIFA world cup website */
-@media screen  and (max-width:576px) {
-  .banner-container{
+@media screen and (max-width: 576px) {
+  .banner-container {
     display: flex;
     flex-direction: column;
     margin: 0 20px;
     margin-top: 50px;
   }
-  .banner-left{
+  .banner-left {
     width: 258px;
     margin: 28px 52px;
     text-align: center;
-
   }
-  .banner-left h2{
+  .banner-left h2 {
     font-size: 25px;
     margin-top: 10px;
   }
-  .banner-left p{
+  .banner-left p {
     font-size: 16px;
   }
-  .banner-right img{
-    width:280px ;
+  .banner-right img {
+    width: 280px;
     margin-left: 40px;
     margin-top: 5px;
   }
 
-  .section-card-container{
+  .section-card-container {
     display: flex;
     flex-direction: column;
     /* margin-left: 27px; */
   }
-   .blog-search{
-    width:360px;
+  .blog-search {
+    width: 360px;
     justify-items: center;
     align-items: center;
     margin-left: 24px;
     margin-top: 30px;
     background-color: white;
-   }
-   .blog-card-content{
-    width:350px;
+  }
+  .blog-card-content {
+    width: 350px;
     display: grid;
-    grid-template-columns: repeat(1,1fr);
-    margin-left:25px;
+    grid-template-columns: repeat(1, 1fr);
+    margin-left: 25px;
     margin-top: 20px;
-    
   }
 
-  .footer-container{
+  .footer-container {
     margin-top: 50px;
-    
   }
-  .footer-item-list{
+  .footer-item-list {
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
     margin-bottom: 50px;
-   
   }
-  
 }
